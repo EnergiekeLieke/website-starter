@@ -10,7 +10,7 @@ export default function HomePage() {
     <>
       {/* Hero — portret.jpg uit /public/ als achtergrond.
           Ontbreekt de foto? Dan valt de achtergrond terug op --color-primair. */}
-      <div className="hero-section" style={{ backgroundImage: "url('/portret.jpg')" }}>
+      <div className="hero-section" style={{ backgroundImage: "url('/fotos/portret.jpg')" }}>
         <div className="hero-overlay">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-2xl leading-tight">
             [Jouw krachtige headline]

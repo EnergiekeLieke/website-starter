@@ -10,7 +10,8 @@ export default function ContactPage() {
         [Hoe kunnen mensen contact met je opnemen? Via e-mail, een formulier,
         social media? Vertel het hier.]
       </p>
-      <a href="mailto:jouw@email.nl"
+      {/* Vervang het e-mailadres hieronder door jouw eigen adres */}
+      <a href="mailto:[jouw-emailadres@voorbeeld.nl]"
         className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity">
         Stuur een e-mail →
       </a>
